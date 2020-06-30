@@ -3,9 +3,9 @@
 	"displayName": "Mendix Client API Docs",
 	"description": "Easily access the Mendix Client API documentation from within VSCode",
 	"version": "0.0.1",
-	"icon": "img/icon.png",
+	"icon": "img/iconmendix.png",
     "publisher": "Yogendra Sharma",
-    "repository": "https://github.com/austenc/vscode-laravel-docs",
+    "repository": "https://github.com/Yogendra0Sharma/vscode-mendix-client-api-docs",
 	"engines": {
 		"vscode": "^1.46.0"
 	},
@@ -13,19 +13,19 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:mendixwidgetDoc.MendixClient8API",
-		"onCommand:mendixwidgetDoc.MendixClient7API"
+		"onCommand:extension.mendixClient8API",
+		"onCommand:extension.mendixClient7API"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "mendixwidgetDoc.MendixClient8API",
+				"command": "extension.mendixClient8API",
 				"category": "Mendix",
 				"title": "Mendix 8 Client API"
 			},
 			{
-				"command": "mendixwidgetDoc.MendixClient7API",
+				"command": "extension.mendixClient7API",
 				"category": "Mendix",
 				"title": "Mendix 7 Client API"
 			}
