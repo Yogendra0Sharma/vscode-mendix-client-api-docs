@@ -4,7 +4,7 @@
 	"description": "Easily access the Mendix Client API documentation from within VSCode",
 	"version": "0.0.1",
 	"icon": "img/iconmendix.png",
-    "publisher": "Yogendra Sharma",
+    "publisher": "yogendrasharma",
     "repository": "https://github.com/Yogendra0Sharma/vscode-mendix-client-api-docs",
 	"engines": {
 		"vscode": "^1.46.0"
